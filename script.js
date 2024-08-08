@@ -64,32 +64,32 @@ const fetchWeather = () => {
         switch (weather) {
           case 'Clear':
           case 'Sunny':
-            image.src = 'images/clear.png';
+            image.src = 'clear.png';
             break;
           case 'Light rain':
           case 'Light rain shower':
           case 'Light drizzle':
           case 'Patchy rain nearby':
-            image.src = 'images/rain.png';
+            image.src = 'rain.png';
             break;
           case 'Snow':
-            image.src = 'images/snow.png';
+            image.src = 'snow.png';
             break;
           case 'Storm':
           case 'Heavy rain':
-             image.src = 'images/storm.png';
+             image.src = 'storm.png';
           
           case 'Mist':
-            image.src = 'images/mist.png';
+            image.src = 'mist.png';
             break;
           case 'Cloudy':
           case 'Partly Cloudy':
-            image.src = 'images/cloudy.png'
+            image.src = 'cloudy.png'
           case 'Haze':
-            image.src = 'images/mist.png';
+            image.src = 'mist.png';
             break;
           case 'Foggy':
-            image.src = 'images/foggu.png';
+            image.src = 'foggy.png';
           default:
             image.src = weather_icon;
         }
